@@ -27,26 +27,20 @@ Is-open-checker is a Java application that helps users check the opening hours o
 
 ### Steps
 
-1. Clone the repository:
+1. **Clone the repository** (Skip this step if you've manually downloaded the project):
     ```bash
     git clone https://github.com/KaroSz/Is-open-checker.git
     ```
 
-2. Navigate to the project directory:
-    ```bash
-    cd Is-open-checker
-    ```
+2. **Open the project in your IDE**:
+    - Import the project into your preferred IDE (e.g., IntelliJ IDEA, Eclipse).
+    - Ensure that the project SDK is set to your installed JDK.
 
-3. Replace `YOUR_API_KEY` in `GooglePlacesAPIConnector.java` with your Google Places API key:
-    ```java
-    private static final String API_KEY = "YOUR_API_KEY";
-    ```
-
-4. Compile and run the application:
-    ```bash
-    javac Main.java
-    java Main
-    ```
+3. **Configure Google Places API key**:
+    - Open `GooglePlacesAPIConnector.java` and replace `YOUR_API_KEY` with your actual Google Places API key:
+        ```java
+        private static final String API_KEY = "YOUR_API_KEY";
+        ```
 
 ## Usage
 
